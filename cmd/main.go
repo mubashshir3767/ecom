@@ -1,9 +1,8 @@
 package main
 
 import (
+	"ecom/api"
 	"log"
-
-	"github.com/mubashshir3767/ecom/cmd/api"
 )
 
 func main() {
