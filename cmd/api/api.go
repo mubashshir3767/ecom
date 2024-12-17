@@ -32,8 +32,3 @@ func (s *APIServer) Run() error {
 	log.Println("Listening on", s.addr)
 	return http.ListenAndServe(s.addr, router)
 }
-
-func (s *APIServer) handleUsers(w http.ResponseWriter, r *http.Request) {
-	// Example response
-	w.Write([]byte("List of users"))
-}
